@@ -1,0 +1,62 @@
+{
+    "name": "AutoAnimeBot",
+    "description": "Telegram Bot To Automate Your Anime Channels",
+    "repository": "https://github.com/The-Hunter-Oraganization/AutoAnime",
+    "keywords": [
+        "python",
+        "flask website",
+        "anime",
+        "gogo",
+        "anime-downloader",
+        "anime-scraper",
+        "gogoanime",
+        "anime-streaming",
+        "zoro ",
+        "heroku",
+        "gogoanime-scraper",
+        "animedex",
+        "automation"
+    ],
+    "env": {
+        "API_ID": {
+            "description": "Your Telegram API ID, Get from https://my.telegram.org",
+            "value": "",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Your Telegram API HASH, Get from https://my.telegram.org",
+            "value": "",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Your Telegram Bot Token, Get from https://telegram.me/BotFather",
+            "value": "",
+            "required": true
+        },
+        "MONGO_DB_URI": {
+            "description": "Your MongoDB URI, Get from https://cloud.mongodb.com",
+            "value": "",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "ID of the owner",
+            "value": "",
+            "required": true
+        },
+        "MSG_ID": {
+            "description": "ID of the message in your Uploads Channel where the schedule of bot will be showed",
+            "value": "",
+            "required": true
+        },
+        "MAIN_CHANNEL": {
+            "description": "Username of your Main Channel",
+            "value": "",
+            "required": true
+        },
+        "ARCHIVE_CHANNEL": {
+            "description": "ID of your Archive Channel",
+            "value": "",
+            "required": true
+        }
+    }
+}
